@@ -1,0 +1,39 @@
+
+.card{
+    display: flex;
+    flex-direction: row;
+    border:1px solid black;
+    align-items: flex-start;
+    padding: 20px;
+    background:rgba(116, 187, 9, 0.884);
+    font-family: monospace;
+    height: 200px;
+    color: white;
+}
+
+.card img{
+   height: 120px;
+   width: 100px;
+   border-radius: 10%;
+   border: 1px solid black;
+   box-shadow:7px 7px 0px 0px rgba(0, 0, 255, 0.384);
+   margin: 20px;
+   background-image:url("fondo.png");
+}
+.content{
+    display:flex;
+    flex-direction: column;
+    padding: 5px;
+
+}
+.star{
+    display: flex;
+    flex-direction: row;
+    
+}
+.star i{
+    font-size: 1.5rem;
+    margin-top: 20px;
+   
+   
+}
