@@ -1,0 +1,37 @@
+div img {
+    width: 340px;
+}
+.parte1{
+    display: flex;
+    flex-direction: row;
+    float: left;
+    padding: 2rem ;
+}
+.title{
+    display: flex;
+    flex-direction: row;
+   
+
+}
+.nombre{
+    margin-right: 50px;
+}
+.precio{
+    margin-left:40px;
+}
+
+button{
+width: 200px;
+height: 60px;
+margin-right: 20px;
+background-color: whitesmoke;
+border: 1px solid rgba(247, 162, 162, 0.76);
+
+}
+.botones{
+    margin-top: 5rem;
+display: flex;
+flex-direction: row;
+}
+
+
